@@ -23,6 +23,7 @@ allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    namespace "com.pushwoosh.reactnativeplugin"
     compileSdkVersion 33
     defaultConfig {
         minSdkVersion 21
